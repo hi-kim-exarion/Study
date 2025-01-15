@@ -1,0 +1,152 @@
+﻿  Building Custom Rule C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/GSound/pygsound/src/GSound/CMakeLists.txt
+  gsDebugCache.cpp
+  gsFrequencyBandResponse.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsDebugCache.cpp')
+  
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsFrequencyBandResponse.cpp')
+  
+  gsFrequencyBands.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsFrequencyBands.cpp')
+  
+  gsFrequencyResponse.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsFrequencyResponse.cpp')
+  
+  gsImpulseResponse.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsImpulseResponse.cpp')
+  
+  gsMeshRequest.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsMeshRequest.cpp')
+  
+  gsPropagationRequest.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsPropagationRequest.cpp')
+  
+  gsRenderRequest.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsRenderRequest.cpp')
+  
+  gsSampledIR.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSampledIR.cpp')
+  
+  gsSoundDetector.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundDetector.cpp')
+  
+  gsSoundDirectivity.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundDirectivity.cpp')
+  
+  gsSoundListener.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundListener.cpp')
+  
+  gsSoundListenerIR.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundListenerIR.cpp')
+  
+  gsSoundListenerRenderer.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundListenerRenderer.cpp')
+  
+  gsSoundMaterial.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundMaterial.cpp')
+  
+  gsSoundMedium.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundMedium.cpp')
+  
+  gsSoundMesh.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundMesh.cpp')
+  
+  gsSoundMeshPreprocessor.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundMeshPreprocessor.cpp')
+  
+  gsSoundObject.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundObject.cpp')
+  
+  gsSoundPropagationSystem.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundPropagationSystem.cpp')
+  
+  Generating Code...
+  Compiling...
+  gsSoundPropagator.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundPropagator.cpp')
+  
+  gsSoundScene.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundScene.cpp')
+  
+  gsSoundSceneIR.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundSceneIR.cpp')
+  
+  gsSoundSource.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundSource.cpp')
+  
+  gsSoundSourceIR.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundSourceIR.cpp')
+  
+  gsSoundStatistics.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSoundStatistics.cpp')
+  
+  gsSourceSoundBuffer.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsSourceSoundBuffer.cpp')
+  
+  gsoundC.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/gsoundC.cpp')
+  
+  gsDiffusePathCache.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsDiffusePathCache.cpp')
+  
+  gsHRTFFilter.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsHRTFFilter.cpp')
+  
+  gsIRCache.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsIRCache.cpp')
+  
+  gsPropagationData.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsPropagationData.cpp')
+  
+  gsSoundBandDirectivity.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsSoundBandDirectivity.cpp')
+  
+  gsSoundPathCache.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsSoundPathCache.cpp')
+  
+  gsSoundSourceClusterer.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsSoundSourceClusterer.cpp')
+  
+  gsUTDFrequencyResponse.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsUTDFrequencyResponse.cpp')
+  
+  gsVisibilityCache.cpp
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsConfig.h(59,10): error C1083: Cannot open include file: 'om/omFramework.h': No such file or directory
+  (compiling source file 'gsound/internal/gsVisibilityCache.cpp')
+  
+  Generating Code...

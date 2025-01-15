@@ -1,0 +1,10 @@
+^C:\USERS\USER.DESKTOP-BLBKBC2\DESKTOP\KIMHANIL\STUDY\PBRT\BUILD\CMAKEFILES\B891800DC4583AFC5EF306A6F8282E59\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3 -BC:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/PBRT-V3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

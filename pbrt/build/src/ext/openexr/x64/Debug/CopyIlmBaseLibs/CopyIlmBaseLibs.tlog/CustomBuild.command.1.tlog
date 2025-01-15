@@ -1,0 +1,26 @@
+^C:\USERS\USER.DESKTOP-BLBKBC2\DESKTOP\KIMHANIL\STUDY\PBRT\BUILD\CMAKEFILES\4CDC2EE2BFD76FAAED15938382F934EA\COPYILMBASELIBS.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/IlmBase/Half/ C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/OpenEXR/IlmImf/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/IlmBase/IlmThread/ C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/OpenEXR/IlmImf/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/IlmBase/Iex/ C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/OpenEXR/IlmImf/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/IlmBase/Imath/ C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/OpenEXR/IlmImf/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER.DESKTOP-BLBKBC2\DESKTOP\KIMHANIL\STUDY\PBRT-V3\SRC\EXT\OPENEXR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3 -BC:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build --check-stamp-file C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/openexr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

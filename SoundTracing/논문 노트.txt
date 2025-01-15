@@ -1,0 +1,81 @@
+논문 노트
+
+- Abstract
+
+	- ST의 발원은 Low-power, high-performance mobile device의 구현
+	- 따라서 ST 알고리즘은 HW Friendly 이다.
+					- 병렬적
+	- FPGA 보드를 만듦으로써 Architecture의 'Function'과 'Performance'을 검증했다.
+	- 위 검증에서 120FPS와 50mW의 전력 소비량으로 작동하며ㅡ 0.31 mm^2의 실리콘 영역을 차지한다.
+		- 16 sound source, 1 listener, 1024 Guide propagation, 128 sound propagation
+
+- 논문 분야 분류
+
+	- Computer systems organization -> Parellel architextures
+	- Computing methodologies -> Computer graphics
+	- Ray trac-ing
+
+- Instroduction
+
+	- 최근 동향
+		- 최근 유저의 Virtual World의 경험을 증진 시키기 위한 연구가 많이 진행되고 있음, [Lakka et al. 2018].
+		- 많은 연구들이 Visual Element에 Focused 이나, Acustic Element의 관심도 증가하고 있음 d [Liu and Manocha 2022].
+
+	
+	- Acustic immersion (몰입)을 경험하기 위해서는 Sound Tracing이 필요하며 이는 3가지 Step으로 나뉨
+
+		- 3가지 Step
+			1. Sound synthesis : Objects간의 Intersection을 통해 Audio Signal을 생성한다. [Raghuvanshi and Lin 2006, 2007; Sterling and Lin 2016].
+			2. Sound Propagation : 음향 전파모델은 Sound Source에서 생성된 파동이 매질을 통해서 청취자에게 전달되는 현상을 나타낸다. 이는 real-time domain에서 wave나 ray-tracing 방식의 Method를 통해 근사하게 계산된다.
+			3. Auralization ( sound generation ) : sound propagation을 통해 생성된 impulse-responses (IRs)를 기반으로 최종 사운드를 계산한다 (computes)  [Pelzer et al.
+2014]	
+		- Real-time rates를 실현하기 위해서는 Sound propagation의 가속은 필수적이다. 왜냐하면 3가지 steps 중에서 가장 computationally expensive 하기 때문이다.
+
+
+	- Sound propagation ( 왜 GA 방식을 사용했는지 )
+
+		- 3가지 처리으로 분류될 수 있다.
+			- 1. Wave-based numerical methods
+			- 2. Geometric acoustic (GA) methods
+			- 3. Hybrid methods
+
+		- Wave-based numerical methods
+
+			- wave 방정식 계산을 통해 사운드 시뮬레이션을 정확하게 계산할 수 있다. [Chaitanya et al. 2020; Liu and Liu 2020; Mehra et al. 2013, 2015; Raghuvanshi et al. 2009; Raghuvanshi and Snyder 2018; Raghuvanshi et al. 2010]
+		
+		- Geometric acustic ( GA )
+
+			- 'Wave-based numverical methods'와 대비되어 GA methods는 기하학적 정보를 사용하여 tracing beams, frustoms 또는 rays와 sound propagation paths를 계산한다.
+			- GA methods 중에서, ray-based approaches는 다른 것들보다 빠르다. 따라서 해당 방식이 interactive application ( real-time )에 가장 알맞다고 할 수 있다. s [Schissler and Manocha 2016; Schissler et al. 2014; Taylor et al. 2009a, 2011, 2012]
+
+		- Hybrid methods
+
+			- Wave-based 방식과 GA 방법을 결합( employ )하여 두 처리 방식의 장점을 활용한 방식.  [Southern et al. 2013; Tang et al. 2021; Yehet al. 2013]
+		
+		- 기존 방식들의 한계점
+
+			1. Limited support of fully dynamic scenes ( 완전 동적 씬들에 대한 제한적 지원 ) : preprocessing 방식이 high computational cost를 감소시켜 주긴 하지만, 특히 회절은 동적 씬을 지원하기 어렵게 만듭니다.
+			2. Hight computing resources : Somthing existing approaches는 interactive speed를 달성하기 위해 Desktop CPU나 GPU의 최대 전력을 사용한다. 그러나 실용적인 시나리오에서는 sound rendering에 필요한 computing resources를 가능한 한 줄여야 한다. Chandak [2011]에 따르면 sound tracing을 위해서는 10% 미만의 computatinal power가 적절하다고 한다.
+			3. Limited performance :  mobile platforms는 Desktop platforms에 비해 적은 computing power를 제공하기 때문에, 기존의 처리 방식으로는 real-time processing이 어려울 것이다. 따라서 모바일에서 real-time rates를 구현하기 위해서는 새롭고 가벼운 처리방식이 필요하다
+		
+		- Main Contributions
+
+			- 위의 문제들을 해결하기 위해, 모바일 디바이스에서 리얼타임 사운드 렌더링을 달성하기 위한 새로운 하드웨어 처리 방식을 제시한다.
+			- 우리의 하드웨어 아키텍쳐는 이 목표를 달성하기 위해, 다음과 같은 새로운 기능들을 제공한다.
+				1. Resulting in low consumption ( ::high comuting resources )
+				2. High performance ( ::limited performance )
+				3. Small silicon area ( ::high comuting resources, mobile friendly)
+
+			- GA-based real-time H/W sound propagation : 우리의 하드웨어 아키텍쳐는 direct sound, trasmission, early-reflections, edge diffraction 그리고 late reverbration에 대해서 가속화 할 수 있다. GA 방식
+			- On-the-fly algorithm for dynamic scenes : 	우리는 dynamic scene에서 효과적인 specular reflection과 edge-diffraction 알고리즘을 제안한다.
+				- 우리는 coplane generation algorithm을 제안한다. 이는 specular reflection과 edge diffraction을 위한 edge detection을 수행하는 image source method를 run-time에 수행하기 위함이다.
+				- 이 처리방식은 pre-processing의 필요를 해결함으로써, dynamic scenes에서의 sound effect를 효과적으로 지원한다.
+			- Sophisticated(세련된) H/W architecture
+				- 우리의 시스템은 performance와 area efficiency를 향상하기 위해 세심하게 설계하여 제작된 하드웨어 유닛이다.
+					1. Minimize external memory accesses : 분리된 내부 버퍼를 통해 달성 ( Valid paths, IR information buffers )
+					2. Terversal & Intersection ( T&I ) operation : sound rendering에서 computationally intensive(집약적)이라고 알려져 있는 T&I연산을 위해, 우리는 RayCore architecture에서 multi-threaded cache system과 merge sort unit이 장착된 T&I unit을 사용한다.  [Nah et al. 2014]
+		
+	- Related work
+		
+		- GA-based Sound Propagation...
+

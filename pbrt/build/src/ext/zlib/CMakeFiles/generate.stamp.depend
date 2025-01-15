@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake
+C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3/src/ext/zlib/CMakeLists.txt
+C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3/src/ext/zlib/zconf.h.cmakein
+C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3/src/ext/zlib/zlib.pc.cmakein

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsDebugCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsFrequencyBandResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsFrequencyBands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsFrequencyResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsImpulseResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsMeshRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsPropagationRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsRenderRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSampledIR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundDirectivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundListenerIR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundListenerRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundMedium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundMeshPreprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundPropagationSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundPropagator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundSceneIR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundSourceIR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSoundStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsSourceSoundBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\gsoundC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsDiffusePathCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsHRTFFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsIRCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsPropagationData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsSoundBandDirectivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsSoundPathCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsSoundSourceClusterer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsUTDFrequencyResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\gsound\internal\gsVisibilityCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\GSound\pygsound\src\GSound\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{950F1A41-A206-3F4B-82E5-313140ACDEC1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\USER.DESKTOP-BLBKBC2\DESKTOP\KIMHANIL\STUDY\PBRT-V3\SRC\EXT\PTEX\SRC\TESTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3 -BC:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build --check-stamp-file C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt/build/src/ext/ptex/src/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

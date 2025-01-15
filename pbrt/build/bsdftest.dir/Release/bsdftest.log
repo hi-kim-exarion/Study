@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3/CMakeLists.txt
+  bsdftest.cpp
+LINK : fatal error LNK1181: cannot open input file 'src\ext\openexr\OpenEXR\IlmImf\Release\IlmImf.lib'

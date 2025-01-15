@@ -1,0 +1,33 @@
+﻿  Building Custom Rule C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3/src/ext/glog/CMakeLists.txt
+  demangle.cc
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\demangle.cc(343,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  logging.cc
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(200,31): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(216,32): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(631,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(764,65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(789,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(799,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1082,51): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1082,26): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1343,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1343,17): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1415,38): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1415,38): warning C4267:         with
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1415,38): warning C4267:         [
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1415,38): warning C4267:             _Ty=int
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1415,38): warning C4267:         ]
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1438,45): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1516,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(1529,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  raw_logging.cc
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\raw_logging.cc(153,3): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  symbolize.cc
+  utilities.cc
+  vlog_is_on.cc
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\vlog_is_on.cc(163,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\vlog_is_on.cc(163,25): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Generating Code...
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging.cc(2024,1): warning C4722: 'google::LogMessageFatal::~LogMessageFatal': destructor never returns, potential memory leak
+  port.cc
+  glog.vcxproj -> C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt\build\src\ext\glog\Release\glog.lib

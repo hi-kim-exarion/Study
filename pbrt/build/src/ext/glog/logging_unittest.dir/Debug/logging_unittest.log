@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/User.DESKTOP-BLBKBC2/Desktop/Kimhanil/Study/pbrt-v3/src/ext/glog/CMakeLists.txt
+  logging_unittest.cc
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\googletest.h(579,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file '../../../../../pbrt-v3/src/ext/glog/src/logging_unittest.cc')
+  
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\googletest.h(586,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file '../../../../../pbrt-v3/src/ext/glog/src/logging_unittest.cc')
+  
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging_unittest.cc(741,48): warning C4267: 'return': conversion from 'size_t' to 'google::uint32', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging_unittest.cc(798,3): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt-v3\src\ext\glog\src\logging_unittest.cc(963,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  logging_unittest.vcxproj -> C:\Users\User.DESKTOP-BLBKBC2\Desktop\Kimhanil\Study\pbrt\build\src\ext\glog\Debug\logging_unittest.exe
